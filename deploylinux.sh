@@ -1,0 +1,1 @@
+ssh -A -tt -i /root/.ssh/pipelines_id -o StrictHostKeyChecking=no -p 22 root@147.182.128.48 bash -c '/root/frendlee-api/deploy.sh'
