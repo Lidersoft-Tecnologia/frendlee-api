@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node ace serve --watch",
     "build": "node ace build --production --ignore-ts-errors",
-    "start": "node server.js",
+    "build2": "tsc ace build",
+    "start": "node build/server.js",
     "deploy": "deploylinux.sh",
     "migration": "node ace migration:run",
     "seed": "node ace db:seed",
