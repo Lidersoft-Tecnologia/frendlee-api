@@ -18,7 +18,7 @@ module.exports = {
         SECRET_KEY: "",
         CLOUDINARY_API_KEY: "",
         CLOUDINARY_API_SECRET: "",
-        CLOUDINARY_CLOUD_NAME:frendlee,
+        CLOUDINARY_CLOUD_NAME:"frendlee",
         CACHE_VIEWS:false,
         SMTP_HOST:"smtp-relay.sendinblue.com",
         SMTP_PORT:587,
