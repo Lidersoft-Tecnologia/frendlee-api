@@ -23,7 +23,12 @@ module.exports = {
         SMTP_HOST:"smtp-relay.sendinblue.com",
         SMTP_PORT:587,
         SMTP_USERNAME:"csfrendlee@gmail.com",
-        SMTP_PASSWORD:""
+        SMTP_PASSWORD:"",
+        PG_HOST:"frendlee-do-user-4403983-0.b.db.ondigitalocean.com",
+        PG_PORT:25060,
+        PG_USER:"doadmin",
+        PG_PASSWORD:"2jJzKlBQpI7Iphjm",
+        PG_DB_NAME:"defaultdb",
     }
   };
   
